@@ -1,0 +1,29 @@
+module testbench_PC();
+
+logic clk, rst;
+logic[6:0] display_led_memory;
+logic[6:0] display_led_register;
+
+top uut(
+clk, rst,
+sw,
+display_led_memory,
+display_led_register
+);
+
+initial begin
+	rst = 0;
+	#50 rst = 1;
+end
+initial begin
+	clk = 0;
+	forever #25 clk = ~clk;
+end
+initial begin
+	sw = 0;
+	#100
+	sw = 1;
+	#100
+	sw = 2;
+end
+endmodule

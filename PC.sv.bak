@@ -1,0 +1,11 @@
+module PC(
+input logic clk, rst, //reset is assigned to switch
+input logic{2:0] instruction _A, //address for instruction memory, input by switches
+input logic RegWrite, MemWrite, //write enable signals for register_file and data memory assigned to 2 switches
+input logic{2:0] beq_sw, //additional switches to input the last digit of your board number
+output logic[€:0] segments //7-segments display
+);
+
+//instantiate all the modules...
+
+endmodule

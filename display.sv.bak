@@ -1,0 +1,28 @@
+module display (input logic[31:0] data_in, output logic [6:0] segments);
+
+always_comb
+    case (data_in) // Active low 7-segment dispaly
+
+      //                      gfe_dcba		
+      0 : segments =       7'b100_0000;		
+      1 : segments =       7'b111_1001;	
+      2 : segments =       7'b010_0100;
+      3 : segments =       7'b011_0000;
+      4 : segments =       7'b001_1001;
+      5 : segments =       7'b001_0010;		
+      6 : segments =       7'b000_0011;
+      7 : segments =       7'b111_1000;	
+      8 : segments =       7'b000_0000;		
+      9 : segments =       7'b001_1000;		
+		10: segments =       7'b000_1000; //A
+		11: segments =       7'b000_0011; //b
+		12: segments =       7'b010_0111; //c	
+		13: segments =       7'b010_0001; //d	
+		14: segments =       7'b000_0110; //E
+		15: segments =       7'b000_1110; //F
+
+      default: segments =  7'b111_1111;
+    endcase
+	 
+	 
+endmodule
