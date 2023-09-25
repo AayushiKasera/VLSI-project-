@@ -1,0 +1,181 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do PC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/instruction_memory.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:27 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/instruction_memory.sv 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 02:49:27 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/sign_extend.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:27 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 02:49:27 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/register_file.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:27 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/register_file.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 02:49:27 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/PC.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:27 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/PC.sv 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 02:49:27 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/MUX_RegDst.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:27 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/MUX_RegDst.sv 
+# -- Compiling module MUX_RegDst
+# 
+# Top level modules:
+# 	MUX_RegDst
+# End time: 02:49:27 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/MUX_MemtoReg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:27 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/MUX_MemtoReg.sv 
+# -- Compiling module MUX_MemtoReg
+# 
+# Top level modules:
+# 	MUX_MemtoReg
+# End time: 02:49:27 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/MUX_ALUSrc.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:27 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/MUX_ALUSrc.sv 
+# -- Compiling module MUX_ALUSrc
+# 
+# Top level modules:
+# 	MUX_ALUSrc
+# End time: 02:49:27 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/display.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:27 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/display.sv 
+# -- Compiling module display
+# 
+# Top level modules:
+# 	display
+# End time: 02:49:27 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/data_memory.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:28 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/data_memory.sv 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 02:49:28 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/ALU.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:28 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 02:49:28 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/MUX_PCSrc.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:28 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/MUX_PCSrc.sv 
+# -- Compiling module MUX_PCSrc
+# 
+# Top level modules:
+# 	MUX_PCSrc
+# End time: 02:49:28 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/shiftLeft.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:28 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/shiftLeft.sv 
+# -- Compiling module shiftLeft
+# 
+# Top level modules:
+# 	shiftLeft
+# End time: 02:49:28 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+E:/vlsi_project/vlsi {E:/vlsi_project/vlsi/testbench_PC.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 02:49:28 on Dec 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/vlsi_project/vlsi" E:/vlsi_project/vlsi/testbench_PC.sv 
+# -- Compiling module testbench_PC
+# 
+# Top level modules:
+# 	testbench_PC
+# End time: 02:49:28 on Dec 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench_PC
+# vsim -gui "+altera" -l msim_transcript -do "PC_run_msim_rtl_verilog.do" 
+# Start time: 02:49:28 on Dec 26,2022
+# Loading sv_std.std
+# Loading work.testbench_PC
+# Loading work.PC
+# Loading work.MUX_PCSrc
+# Loading work.instruction_memory
+# Loading work.MUX_RegDst
+# Loading work.register_file
+# Loading work.sign_extend
+# Loading work.shiftLeft
+# Loading work.MUX_ALUSrc
+# Loading work.ALU
+# Loading work.data_memory
+# Loading work.MUX_MemtoReg
+# Loading work.display
+# ** Warning: (vsim-3015) E:/vlsi_project/vlsi/testbench_PC.sv(12): [PCDPC] - Port size (14) does not match connection size (7) for port 'display_led_register'. The port definition is at: E:/vlsi_project/vlsi/PC.sv(9).
+# 
+#         Region: /testbench_PC/uut
+# ** Warning: (vsim-3015) E:/vlsi_project/vlsi/testbench_PC.sv(12): [PCDPC] - Port size (14) does not match connection size (7) for port 'display_led_memory'. The port definition is at: E:/vlsi_project/vlsi/PC.sv(10).
+# 
+#         Region: /testbench_PC/uut
+# ** Warning: (vsim-3015) E:/vlsi_project/vlsi/PC.sv(39): [PCDPC] - Port size (32) does not match connection size (3) for port 'instruction'. The port definition is at: E:/vlsi_project/vlsi/MUX_PCSrc.sv(3).
+# 
+#         Region: /testbench_PC/uut/mux_pc
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 02:51:21 on Dec 26,2022, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 3

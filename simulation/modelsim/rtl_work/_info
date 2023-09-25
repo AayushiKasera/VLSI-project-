@@ -1,0 +1,330 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/vlsi_project/vlsi/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1672040968
+!i10b 1
+!s100 KAGD?J5lgJhUH>g6Cm6^73
+I9ADa`EPDo1Io`lE:YClYe0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 ALU_sv_unit
+S1
+R0
+Z4 w1670218007
+8E:/vlsi_project/vlsi/ALU.sv
+FE:/vlsi_project/vlsi/ALU.sv
+L0 1
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1672040968.157000
+!s107 E:/vlsi_project/vlsi/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/ALU.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+E:/vlsi_project/vlsi
+n@a@l@u
+vdata_memory
+R1
+R2
+!i10b 1
+!s100 Gdo0BX?WN^k50C<aWFE?n2
+IVVdo:4A1hEJIU_FI9lWAK0
+R3
+!s105 data_memory_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/data_memory.sv
+FE:/vlsi_project/vlsi/data_memory.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040968.061000
+!s107 E:/vlsi_project/vlsi/data_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/data_memory.sv|
+!i113 1
+R6
+R7
+vdisplay
+R1
+Z8 !s110 1672040967
+!i10b 1
+!s100 PAnBZGMDMVeTY=80ob3X13
+Im7jPcUGJ_S8@A_cOY;Dg10
+R3
+!s105 display_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/display.sv
+FE:/vlsi_project/vlsi/display.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040967.965000
+!s107 E:/vlsi_project/vlsi/display.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/display.sv|
+!i113 1
+R6
+R7
+vinstruction_memory
+R1
+R8
+!i10b 1
+!s100 ^=Ve^O[8iZ=E7c4Yh@;YP0
+IbO4][MEMHgjcCE>=3_l;S1
+R3
+!s105 instruction_memory_sv_unit
+S1
+R0
+w1672040785
+8E:/vlsi_project/vlsi/instruction_memory.sv
+FE:/vlsi_project/vlsi/instruction_memory.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040967.324000
+!s107 E:/vlsi_project/vlsi/instruction_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/instruction_memory.sv|
+!i113 1
+R6
+R7
+vMUX_ALUSrc
+R1
+R8
+!i10b 1
+!s100 F>f0jBn5]SkBL0oWo=10N3
+ImA7bhZeZ@[bjCQm9cF1`P1
+R3
+!s105 MUX_ALUSrc_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/MUX_ALUSrc.sv
+FE:/vlsi_project/vlsi/MUX_ALUSrc.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040967.873000
+!s107 E:/vlsi_project/vlsi/MUX_ALUSrc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/MUX_ALUSrc.sv|
+!i113 1
+R6
+R7
+n@m@u@x_@a@l@u@src
+vMUX_MemtoReg
+R1
+R8
+!i10b 1
+!s100 CzSeJdQ_d;nU<IVC;]@L11
+IV5fRIX?lzjWjI[EPD1f1@2
+R3
+!s105 MUX_MemtoReg_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/MUX_MemtoReg.sv
+FE:/vlsi_project/vlsi/MUX_MemtoReg.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040967.770000
+!s107 E:/vlsi_project/vlsi/MUX_MemtoReg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/MUX_MemtoReg.sv|
+!i113 1
+R6
+R7
+n@m@u@x_@memto@reg
+vMUX_PCSrc
+R1
+R2
+!i10b 1
+!s100 :[lVE@EFUM<TED>5c8Z?`0
+IHkZ6_MRa92Xb^;4]V>a[l2
+R3
+!s105 MUX_PCSrc_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/MUX_PCSrc.sv
+FE:/vlsi_project/vlsi/MUX_PCSrc.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040968.244000
+!s107 E:/vlsi_project/vlsi/MUX_PCSrc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/MUX_PCSrc.sv|
+!i113 1
+R6
+R7
+n@m@u@x_@p@c@src
+vMUX_RegDst
+R1
+R8
+!i10b 1
+!s100 8o@k<YL_fY0B^TBz>LSD_3
+I9Jm8]TTcYWl<j;CB;l=]J2
+R3
+!s105 MUX_RegDst_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/MUX_RegDst.sv
+FE:/vlsi_project/vlsi/MUX_RegDst.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040967.669000
+!s107 E:/vlsi_project/vlsi/MUX_RegDst.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/MUX_RegDst.sv|
+!i113 1
+R6
+R7
+n@m@u@x_@reg@dst
+vPC
+R1
+R8
+!i10b 1
+!s100 PH]CR5e9olN6gh_:<KJfi1
+IiUe=R`>RKPPj7^ngl0L>`2
+R3
+!s105 PC_sv_unit
+S1
+R0
+w1672039590
+8E:/vlsi_project/vlsi/PC.sv
+FE:/vlsi_project/vlsi/PC.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040967.576000
+!s107 E:/vlsi_project/vlsi/PC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/PC.sv|
+!i113 1
+R6
+R7
+n@p@c
+vregister_file
+R1
+R8
+!i10b 1
+!s100 IN^DY1h2T_C_`4ke?[a`71
+II_03JZGkXW7e7gW30JV:S1
+R3
+!s105 register_file_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/register_file.sv
+FE:/vlsi_project/vlsi/register_file.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040967.495000
+!s107 E:/vlsi_project/vlsi/register_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/register_file.sv|
+!i113 1
+R6
+R7
+vshiftLeft
+R1
+R2
+!i10b 1
+!s100 K87;4AHzeEZ8QV7eE@GYQ1
+IS6jc7GCN<EY`^LCKH>0Fo3
+R3
+!s105 shiftLeft_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/shiftLeft.sv
+FE:/vlsi_project/vlsi/shiftLeft.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040968.341000
+!s107 E:/vlsi_project/vlsi/shiftLeft.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/shiftLeft.sv|
+!i113 1
+R6
+R7
+nshift@left
+vsign_extend
+R1
+R8
+!i10b 1
+!s100 b6H`KDz]]eb9EOSV;jaoY2
+IEYii`hbPd]9IDKo^7Rha10
+R3
+!s105 sign_extend_sv_unit
+S1
+R0
+R4
+8E:/vlsi_project/vlsi/sign_extend.sv
+FE:/vlsi_project/vlsi/sign_extend.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040967.416000
+!s107 E:/vlsi_project/vlsi/sign_extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/sign_extend.sv|
+!i113 1
+R6
+R7
+vtestbench_PC
+R1
+R2
+!i10b 1
+!s100 =T^b<oz54HZmUbRnHJQ391
+I1e[OBe`EAHJ`QWP9C`j652
+R3
+!s105 testbench_PC_sv_unit
+S1
+R0
+w1672035095
+8E:/vlsi_project/vlsi/testbench_PC.sv
+FE:/vlsi_project/vlsi/testbench_PC.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1672040968.436000
+!s107 E:/vlsi_project/vlsi/testbench_PC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/vlsi_project/vlsi|E:/vlsi_project/vlsi/testbench_PC.sv|
+!i113 1
+R6
+R7
+ntestbench_@p@c
